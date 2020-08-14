@@ -1,0 +1,36 @@
+
+
+    <div class="droup">
+            <div class="right font-size opacity1">
+                {{ title}}   
+            </div>
+            <div class="left"> 
+                <div class="dropdown-toggle center font-size opacity1"id="dropdownMenu2" data-toggle="dropdown">
+                    <img [src]="profileDetails.profilepicture" alt="">
+                    {{ profileDetails.name}} 
+                </div>
+                
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <div class="centering"><img [src]="profileDetails.profilepicture" alt=""> </div>
+                <div class="ptb center"> {{ profileDetails.name}} </div>
+                <div class="pbt center"> {{ profileDetails.email}} </div>
+                <app-item-list [profileSubMenu]="true" [profileList]="profileList"></app-item-list>
+                <div (click)="redirect()" class="centering">
+                    <a class="button pbt center" type="button">Sign Out</a></div>
+                
+                </div>
+            
+            </div>   
+    </div>
+    
+
+
+
+
+   
+
+
+
+
+
+

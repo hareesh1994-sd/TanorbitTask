@@ -1,0 +1,28 @@
+
+.profile-list {
+    background-image: url("../../assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    .card {
+        width: 603px;
+        top: 101px;
+        left: 464px;
+        border-radius: 17px;
+            .font{
+            font-size: 15px;
+            font-weight: bold;
+            color: #8f8f8f;
+        }
+        
+        
+        .card-header{
+            text-align: center;
+        }
+        .headerp{
+            padding: 45px 0px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #8f8f8f;
+        }
+    }
+}
