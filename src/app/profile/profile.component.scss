@@ -4,27 +4,28 @@
     list-style: none;
     
 }
+.profile-details {
+    margin-top: 24px;
+}
+
 .verticle__navbar{
     background-color: #4152c8;
-    margin-left: 40px;
-    height: 50vw; 
+    margin-left: 24px;
+    height: 44vw;
     border-radius: 20px;
-    width: 184px;
+    width: 280px;
     .tab {
         font-size: 32px !important;
         line-height: 52px;
     }
 }
-.row{
-    margin: 30px 0px;
-}
 .nav{
-    padding-top: 300px;
+    padding-top: 214px;
 }
 .sidebar-nav ul li{
     padding:10px 10px 0px 0px;
     border-bottom: 1px solid #5a5ccd;
-    margin-left: 20px;
+    margin-left: 48px;
 }
 .sidebar-nav ul li {
     font-size: 15px;
@@ -35,7 +36,7 @@
 .active-tab {
     background-image: url("../../assets//active.ping");
     background-repeat: no-repeat;
-    background-position: 111px;
+    background-position: 183px;
 }
 
 

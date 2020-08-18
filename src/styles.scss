@@ -1,1 +1,64 @@
 /* You can add global styles to this file, and also import other style files */
+#ng-chat-people {
+.secondary-background {
+    background-color: #4152c8 !important;
+    color: white !important;
+    height: 50px !important;
+    line-height: 50px !important;
+    font-size: 24px !important;
+
+    span {
+        &::before {
+            font-family: 'Font Awesome\ 5 Free';
+            font-weight: 900;
+            content: '\f27a';
+        }
+        &::after {
+            font-family: 'Font Awesome\ 5 Free';
+            font-weight: 900;
+            content: '\f107';
+            float: right;
+        }
+    }
+}
+}
+#ng-chat-users {
+    top: 61px !important;
+}
+
+.row{
+    &.no-margin {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+}
+
+.no-padding {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.map-container {
+    border-radius: 14px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(177, 176, 176);
+  border-radius: 10px !important;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #888; 
+}
